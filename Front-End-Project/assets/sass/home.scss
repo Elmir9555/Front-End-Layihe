@@ -256,6 +256,7 @@ body{
         }
        
         .box-search{
+            width:40%;
             input{
                 padding: 10px;
                 position: relative;
@@ -306,8 +307,91 @@ body{
                 padding-top: 13px;
                 padding-left: 15px;
             }
+
+            .shop{
+                background-color:rgb(255, 240, 237);
+                height:50px;
+                width: 50px;
+                border-radius: 50px;
+                cursor: pointer;
+                padding-top: 13px;
+                padding-left: 17px;
+                margin-right: 70px;
+                margin-left: 32px;
+                position: relative;
+                
+    
+                i{
+                    color:rgb(235, 52, 52) ;
+                    font-size:18px;
+                    
+                }
+
+                .count{
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 15px;
+                    background-color:red;
+                    right: 0;
+                    top: 0;
+                    color: white;
+                    font-size:10px;
+                    text-align:center;
+                }
+              }
+              
+              .dropdown {
+                position: relative;
+                display: inline-block;
+              }
+              
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                right: 90px;
+                top: 60px;
+                background-color: #f9f9f9;
+                min-width: 260px;
+                height: 250px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                border-radius: 7px;
+
+                p{
+                    text-align: center;
+                    font-size: 13px;
+                    font-weight: bold;
+                    margin-top:5px;
+                }
+                .euro{
+                    font-size: 12px;
+                    text-align: center;
+                }
+              }
+              
+              .dropdown-content img {
+                margin-left: 80px;
+                margin-top: 40px;
+                width:90px;
+                height:90px;
+              }
+              
+              .dropdown:hover .dropdown-content {
+                display: block;
+              }
+              
+              
         }
+
+       
+          
+        
+       
+        
     }
 }
+
+
 
 
