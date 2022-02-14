@@ -166,8 +166,8 @@
         <div class="dropdown-list">
             <div class="container">
                 <div class="row dropdown-hover">
-                    <div class="col-4 all-categories">
-                        <div class="dropdown">
+                    <div class="col-3 all-categories">
+                        <div class="dropdownbtn">
                             <button id="list-btn" class="btn btn-secondary dropdown-toggle" type="button"
                                 id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
@@ -175,12 +175,40 @@
                             </button>
                             <div class="total-63">TOTAL 63 PRODUCTS</div>
                             <div class="dropdown-menu drpdwn-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#"><i class="fa-solid fa-apple-whole"></i> Fruits &
-                                    Vegetables</a>
+                                <div class="dropdown">
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-apple-whole"></i> Fruits &
+                                        Vegetables <i class="fa-solid fa-angle-right ms-5"></i></a>
+
+                                    <div class="dropdown-content">
+                                        <a href="#">Cuts & Sprouts</a>
+                                        <a href="#">Exotic Fruits & Veggies</a>
+                                        <a href="#">Fresh Fruits</a>
+                                        <a href="#">Fresh Vegetables</a>
+                                        <a href="#">Herbs & Seasonings</a>
+                                        <a href="#">Packaged Produce</a>
+                                        <a href="#">Party Trays</a>
+                                    </div>
+                                </div>
+
                                 <a class="dropdown-item" href="#"><i class="fa-solid fa-shrimp"></i> Meats & Seafood</a>
                                 <a class="dropdown-item" href="#"><i class="fa-solid fa-egg"></i> Breakefast & Dairy
                                 </a>
-                                <a class="dropdown-item" href="#"><i class="fa-solid fa-mug-hot"></i> Beverages</a>
+                                <div class="dropdown">
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-apple-whole"></i> Beverages
+                                        <i class="fa-solid fa-angle-right ms-5"></i></a>
+
+                                    <div class="dropdown-content">
+                                        <a href="#">Coffe</a>
+                                        <a href="#">Craft Beer</a>
+                                        <a href="#">Drink Boxes & Pouches</a>
+                                        <a href="#">Milk & Plant-Based Milk</a>
+                                        <a href="#">Soda & Pop</a>
+                                        <a href="#">Sparkling Water</a>
+                                        <a href="#">Tea & Kombucha</a>
+                                        <a href="#">Water</a>
+                                        <a href="#">Wine</a>
+                                    </div>
+                                </div>
                                 <a class="dropdown-item" href="#"><i class="fa-solid fa-cookie"></i> Breads and
                                     Bakery</a>
                                 <a class="dropdown-item" href="#"><i class="fa-solid fa-snowflake"></i> Frozen Food</a>
@@ -196,8 +224,8 @@
                         </div>
                     </div>
 
-                    <div class="col-8 hover-list">
-                        <div class="col-4 hover-drop">
+                    <div class="col-9 hover-list">
+                        <div class="col-3 hover-drop">
                             <div class="dropdown">
                                 <button class="dropbtn">HOME <i class="fa-solid fa-angle-down"></i></button>
                                 <div class="dropdown-content">
@@ -269,19 +297,33 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="col-5">
+                        </div>
+                        <div class="col-6 hover">
 
+                            <div class="col-5 cl4">
+                                <i class="fa-solid fa-cheese"></i>
+                                <a href="#">MEATS & SEAFOOD</a>
                             </div>
-                            <div class="col-3">
+                            <div class="col-3 cl4">
+                                <i class="fa-solid fa-cookie"></i>
+                                <a href="#">BAKERY</a>
+                            </div>
+                            <div class="col-4 cl4">
+                                <i class="fa-solid fa-mug-hot"></i>
+                                <a href="#">BAVERAGES</a>
+                            </div>
 
-                            </div>
+                        </div>
+                        <div class="col-3 blog-contact">
+                            <div class="col-5">BLOG</div>
+                            <div class="col-5">CONTACT</div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
 
 
@@ -291,6 +333,13 @@
 
 
     </header>
+
+    <main>
+        
+    </main>
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
