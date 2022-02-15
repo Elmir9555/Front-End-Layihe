@@ -24,7 +24,7 @@ body{
     
     
 }
-
+//header...
 .head-advert{
     text-align: center;
     background-color:rgb(35, 57, 149);  
@@ -407,13 +407,14 @@ body{
                     color:$primarycolor;
                     line-height:30px;
                     padding-left: 20px;
-                    transition: all 1s;
+                    transition: all 2s;
 
                   
                       
                       .dropdown {
                         position: relative;
                         display: inline-block;
+                        width: 100%;
                       }
 
                       
@@ -491,6 +492,9 @@ body{
                     bottom:-8px;
                     left: 35px;
                     outline:0;
+                    top: 248px;
+                    right:45px;
+                    margin-left:65px
                 }
                 #end{
                     color: black;
@@ -707,6 +711,297 @@ body{
 
        
     }
+}
+
+
+
+//body...
+
+main{
+    #slider{
+        margin-top:30px;
+         .content{
+             position: absolute;
+             top: 70px;
+             left: 150px;
+
+             .exclusive{
+                 font-size: 12px;
+             }
+             #sale{
+                 background-color:rgb(211, 231, 216);
+                 border-radius: 20px;
+                 border:none;
+                 color: green;
+                 font-size:13px;
+                 height:30px;
+                 width: 80px;
+             }
+             
+                h1{
+                    width:400px;
+                    font-weight: bold;
+                    margin-top:17px;
+                    font-size:40px;
+                    line-height:55px;
+                 }
+                 .usd-price{
+                     font-size:30px;
+                     color: red;
+                 }
+                 #shop-btn{
+                    border: none;
+                    border-radius: 20px;
+                    background-color:$primarycolor2;
+                    color: white;
+                    width: 150px;
+                    height: 40px;
+                    font-size: 13px;
+                    
+                    i{
+                        margin-left: 20px;
+                    }
+                 }
+                
+                
+                 
+             
+         }
+    }
+
+    #products{
+        .products{
+            div{
+                padding:0;
+            }
+            margin-top:40px;
+            .row{
+                
+                .big-height{
+                    height: 300px;
+                    border-top-left-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                    border: 1px solid rgba(0,0,0,.125);
+                    .beverages-img{
+                        width:230px;
+                        height: 230px;
+                    }
+                    .beverage-item{
+                        text-align:center;
+                        p{
+                            font-size:12px;
+                        }
+                        span{
+                            font-weight:bold;
+                        }
+                    }
+                   
+                }
+                .big-col{
+                    height:300px;
+                    
+                    
+
+                    .food,.drink{
+                        height: 150px;
+                        border: 1px solid rgba(0,0,0,.125);
+                        border-top-right-radius: 8px;
+                        display:flex;
+
+                        .col-3{
+                            border-right: 1px solid rgba(0,0,0,.125);
+                            height: 150px;
+
+                            
+                            .all{
+                                display: flex;
+                                margin: 20px;
+                                margin-left:30px;
+                               
+
+                                .biscuits-img{
+                                    width: 100px;
+                                    height: 100px;
+                                }
+                                .items-biscuits{
+                                    margin-top:20px;
+                                    span{
+                                        font-weight: 600;
+                                        font-size: 13px;
+                                        display: inline-block;
+                                        width: 100px;
+                                    }
+                                    p{
+                                        font-size:13px;
+                                        margin-top:10px;
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                    .drink{
+                        height: 150px;
+                        border: 1px solid rgba(0,0,0,.125);
+                        border-bottom-right-radius: 8px;
+                        display:flex;
+                        .col-3{
+                            border-right: 1px solid rgba(0,0,0,.125);
+                            height: 150px;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+
+    #plugin-productprice{
+        .plugin-productprice{
+            margin-top: 30px;
+            .row{
+                .plugin{
+                    position: relative;
+                    border: 2px solid rgb(255, 0, 0);
+                    border-radius: 15px;
+                    height: 730px;
+                    padding-top:20px;
+
+                  .oclock {
+                    position: relative !important;
+                    padding-top: 0;
+                    margin-left: -200px;
+                    height:100px;
+                    width: 800px;
+                    zoom: 0.8;
+                    transform: scale(.54);
+                    -ms-transform: scale(.54); 
+                    -webkit-transform: scale(.54); 
+                    -o-transform: scale(.54); 
+                    -moz-transform: scale(.54);
+                    .inn{
+                        background-color: rgb(237, 23, 74) !important;
+                        color: white !important;
+                    }
+
+                  }
+                    
+
+                    .strong{
+                        color: rgb(35, 57, 149);
+                        font-size:20px;
+                        line-height:10px;
+                        margin-top: 20px;
+                        
+                    }
+                    .offer{
+                        font-size: 10px;
+                        color: grey;
+                        
+                    }
+                    .whey-img{
+                        width: 270px;
+                        height: 270px;
+                        margin-top:50px;
+                    }
+                    
+                    .sale{
+                        position: absolute;
+                        width:70px;
+                        height:70px;
+                        border-radius: 70px;
+                        background-color:rgb(237, 23, 74);
+                        padding: 15px;
+                        color:white;
+                        font-size:22px;
+                        font-weight:bold;
+                        top: 223px;
+                        padding-top: 18px;
+                    }
+
+                    .price{
+                        .sale1{
+                            color: grey;
+                            font-size:15px;
+                            text-decoration: line-through;
+                            font-weight: bold;
+                        }
+
+                        .now-price{
+                            color:rgb(212, 19, 67);
+                            font-size:17px;
+                            font-weight:bold;
+                            margin-left: 10px;
+                        }
+                    }
+                    .vanilla{
+                        color: var(--color-text);
+                        cursor: pointer;
+                        transition: all 0.2s;
+                        margin-top:10px;
+                        
+                        &:hover{
+                            color: rgb(35, 57, 149);
+                        }
+                    }
+
+                    .kq{
+                        color: grey;
+                        font-size:11px;
+                    }
+                    .stock{
+                        color: rgb(0, 184, 83);
+                        font-size:11px;
+                        margin-left: 10px;
+                        font-weight: bold;
+                        
+                    }
+
+                    .star{
+                        i{
+                            color: #FFCD00;
+                            font-size:11px;
+                        }
+                        .count{
+                            font-size:12px;
+                            margin-left: 5px;
+                        }
+                    }
+
+                    .end-content{
+                        .span{
+                            float: right;
+                            .available{
+                                color:grey;
+                                font-size: 10px;
+                               
+                            }
+                            .available-count{
+                                color:rgb(35, 57, 149) ;
+                                font-weight: bold;
+                              
+                            }
+                        }
+                      
+                    }
+
+                    .gradient{
+                        margin-top:45px;
+                        .gradient-color1{
+                            height:10px;
+                           
+                            .gradient-color{
+                            background-image: linear-gradient(red, yellow);                            }
+                        }
+                        
+                    }
+                }
+            }   
+           
+        }
+    }
+
+
 }
 
 
