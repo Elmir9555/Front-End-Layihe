@@ -19,3 +19,27 @@ clock.start();
 
 
 
+$(function() {
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        
+        nav:true,
+
+        smartSpeed:1500,
+        animateIn:'linear',
+        animateOut:'linear',
+        
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+})
