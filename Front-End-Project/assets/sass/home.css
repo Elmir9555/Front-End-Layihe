@@ -2029,11 +2029,14 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   top: 73px;
 }
 
+.delivery {
+  background-color: #f7f8fd;
+}
+
 .delivery .row {
   height: 70px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  padding-top: 10px;
-  margin-top: 30px;
+  padding-top: 25px;
 }
 
 .delivery .row .col-3 .everyday {
@@ -2054,5 +2057,152 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   margin-left: 10px;
   font-family: "Inter", sans-serif;
   font-size: 14px;
+}
+
+.list-footer {
+  background-color: #f7f8fd;
+  height: 450px;
+}
+
+.list-footer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 80px;
+}
+
+.list-footer .row .col-2 h6 {
+  color: #202435;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+.list-footer .row .col-2 li {
+  font-size: 14px;
+  color: #b7b7bb;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.contact-apps {
+  height: 280px;
+}
+
+.contact-apps .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  height: 160px;
+}
+
+.contact-apps .row .info-webapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.contact-apps .row .info-webapp .call-working {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
+.contact-apps .row .info-webapp .call-working .call-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 14px;
+  padding-left: 17px;
+  color: grey;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.contact-apps .row .info-webapp .call-working .contact-working {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.contact-apps .row .info-webapp .call-working .contact-working h3 {
+  font-size: 20px;
+  font-weight: bold;
+  height: 15px;
+}
+
+.contact-apps .row .info-webapp .call-working .contact-working span {
+  color: grey;
+  font-size: 12px;
+}
+
+.contact-apps .row .info-webapp .web-application {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 610px;
+}
+
+.contact-apps .row .info-webapp .web-application .download-content h6 {
+  font-weight: bold;
+  font-size: 14px;
+  height: 10px;
+}
+
+.contact-apps .row .info-webapp .web-application .download-content p {
+  font-size: 12px;
+  color: grey;
+}
+
+.contact-apps .row .info-webapp .web-application .img-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 280px;
+}
+
+.contact-apps .row .info-webapp .web-application .img-app .play-store {
+  width: 120px;
+  height: 40px;
+}
+
+.contact-apps .row .info-webapp .web-application .img-app .app-store {
+  width: 120px;
+  height: 40px;
+}
+
+.contact-apps .row .info-webapp .web-application .social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 130px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-apps .row .info-webapp .web-application .social-icon .fb, .contact-apps .row .info-webapp .web-application .social-icon .twitter, .contact-apps .row .info-webapp .web-application .social-icon .instagram {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding-top: 8px;
+  padding-left: 13px;
 }
 /*# sourceMappingURL=home.css.map */
