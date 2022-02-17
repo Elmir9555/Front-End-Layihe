@@ -62,8 +62,12 @@ body{
             justify-content: space-between;
             
             li{
+               
                 a{
                     color: $primarycolor;
+                    &:hover{
+                        color: rgb(44, 190, 248);
+                    }
                 }
             }
         }

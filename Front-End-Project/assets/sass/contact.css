@@ -721,144 +721,135 @@ body {
   color: #2cbef8;
 }
 
-.first-row .transition {
-  padding-top: 10px;
+main {
+  padding-top: 30px;
+  background-color: #f9f9f9;
+  height: 1320px;
 }
 
-.first-row .transition .home {
-  font-size: 12px;
-  cursor: pointer;
-}
-
-.first-row .transition .home:hover {
-  text-decoration: underline;
-}
-
-.first-row .transition .icon {
-  padding-left: 10px;
-  padding-bottom: 30px;
-}
-
-.first-row .transition .icon i {
-  font-size: 9px;
-  color: grey;
-  margin-bottom: 10px;
-}
-
-.first-row .transition .account {
-  font-size: .75rem;
-  font-weight: 500;
-  text-transform: uppercase;
+main .first-content .lorem-touch .touch {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-weight: 400;
   letter-spacing: 0;
-  color: grey;
-  margin-left: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+  height: 50px;
 }
 
-.login-register {
-  margin-top: 40px;
-}
-
-.login-register .row .col-6 .login {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  font-size: 1rem;
-  font-weight: 550;
-  text-transform: uppercase;
-  padding-bottom: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.login-register .row .col-6 .dv-username {
-  margin-top: 20px;
-}
-
-.login-register .row .col-6 .username {
+main .first-content .lorem-touch .lorem {
   font-size: 13px;
-  height: 15px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
-.login-register .row .col-6 .dv-password {
+main .location-contact-letter {
+  margin-top: 50px;
+}
+
+main .location-contact-letter .row .col-4 {
+  height: 280px;
+  position: relative;
+}
+
+main .location-contact-letter .row .col-4 .col-inside {
+  background-color: #f3f3f6;
+  height: 200px;
+  border-radius: 7px;
+  width: 400px;
+}
+
+main .location-contact-letter .row .col-4 .col-inside .loc-div {
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+main .location-contact-letter .row .col-4 .col-inside p {
+  font-size: 13px;
+  color: grey;
+}
+
+main .location-contact-letter .row .col-4 .col-inside h6 {
   margin-top: 30px;
 }
 
-.login-register .row .col-6 .password {
-  font-size: 13px;
-  height: 15px;
+main .location-contact-letter .row .col-4 .col-inside i {
+  color: #233995;
+  font-size: 34px;
 }
 
-.login-register .row .col-6 #chck {
-  border: none;
-  background-color: #f3f4f7;
+main .end-main .forms {
   width: 100%;
-  height: 40px;
-  border-radius: 5px;
+  height: 800px;
+  border-radius: 15px;
+  background-color: white;
 }
 
-.login-register .row .col-6 .checkbox-remember {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
+main .end-main .forms .content {
+  padding: 90px 90px;
+  text-align: center;
 }
 
-.login-register .row .col-6 .checkbox-remember .remember {
-  font-size: 13px;
-  margin-left: 10px;
-  padding-top: 1px;
+main .end-main .forms .content h1 {
+  font-weight: 400;
 }
 
-.login-register .row .col-6 #btn-login {
-  border: none;
-  background-color: #233995;
-  color: white;
-  font-size: 13px;
-  width: 80px;
-  height: 35px;
-  border-radius: 5px;
-  margin-top: 15px;
-}
-
-.login-register .row .col-6 .lost-passworddiv {
-  margin-top: 10px;
-}
-
-.login-register .row .col-6 .lost-passworddiv a {
-  color: #2cbef8;
+main .end-main .forms .content p {
+  color: grey;
   font-size: 14px;
 }
 
-.login-register .row .col-6 .lost-passworddiv a:hover {
-  color: #233995;
-  text-decoration: underline;
+main .end-main .forms .content hr {
+  margin-top: 50px;
 }
 
-.login-register .row .col-6 #register {
-  border: none;
-  background-color: #233995;
-  color: white;
+main .end-main .forms .row .form .mr {
+  margin-top: 19px;
+  font-size: 14px;
+}
+
+main .end-main .forms .row .form #textar {
+  height: 150px;
+  padding-bottom: 120px;
+}
+
+main .end-main .forms .row .form .name-email .name-input .name {
+  color: grey;
   font-size: 13px;
-  width: 90px;
-  height: 35px;
+}
+
+main .end-main .forms .row .form .name-email .name-input .inpt {
+  border: none;
+  background-color: #dee1ea;
+  width: 100%;
   border-radius: 5px;
-}
-
-.login-register .row .col-6 .content-register {
+  height: 45px;
   margin-top: 10px;
+  padding-left: 10px;
+  font-size: 14px;
 }
 
-.login-register .row .col-6 .content-register p {
-  font-size: .8125rem;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 24px;
+main .end-main .forms .row .form .name-email .name-input .inpt:focus {
+  outline: none;
 }
 
-.login-register .row .col-6 .content-register a {
-  color: #d41343;
-  text-decoration: underline;
+main .end-main .forms .row .form #snd-msg {
+  text-align: center;
+  color: white;
+  background-color: #233995;
+  font-size: 13px;
+  border: none;
+  width: 170px;
+  border-radius: 5px;
+  margin-top: 15px;
+  height: 45px;
 }
 
 .first-part-footer {
-  margin-top: 150px;
+  margin-top: 0px;
   background-color: #233995;
   width: 100%;
   height: 350px;
@@ -1142,4 +1133,4 @@ body {
   color: grey;
   margin-left: 10px;
 }
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=contact.css.map */

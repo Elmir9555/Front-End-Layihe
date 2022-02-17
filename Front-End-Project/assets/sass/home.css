@@ -64,6 +64,10 @@ body {
   color: #4c5165;
 }
 
+.row-head .row ul li a:hover {
+  color: #2cbef8;
+}
+
 .row-head .row .icon-adver {
   font-size: 12px;
   display: -webkit-box;
