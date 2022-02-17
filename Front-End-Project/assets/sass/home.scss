@@ -2129,12 +2129,12 @@ main{
 }
 
 .contact-apps{
-    height:280px;
+    height:180px;
     .row{
         display: flex;
         padding-top:40px;
         border-bottom:1px solid rgba(0,0,0,.25);
-        height:160px;
+        height:140px;
         .info-webapp{
             display: flex;
             position:relative;
@@ -2203,11 +2203,13 @@ main{
                     .play-store{
                         width: 120px;
                         height: 40px;
+                        cursor: pointer;
                     }
                     .app-store{
                         
                         width: 120px;
                         height: 40px;
+                        cursor: pointer;
                        
                     }
                     
@@ -2217,6 +2219,7 @@ main{
                     display: flex;
                     width:130px;
                     justify-content: space-between;
+                    cursor: pointer;
                    
                     .fb,.twitter,.instagram{
                         width: 40px;
@@ -2226,12 +2229,42 @@ main{
                         padding-top: 8px;
                         padding-left: 13px;
                         
+                        
                     }
                 }
             }
         }
     }
 }
+
+.end-footer{
+    
+    .content-end{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        .copyright{
+            font-size:12px;
+            color: grey;
+        }
+        .privacy-visa{
+            display:flex;
+            justify-content: space-between;
+            width: 600px;
+
+            .terms-cookies{
+                span{
+                    font-size:12px;
+                    color: grey;
+                    margin-left:10px;
+                }
+            }
+           
+        }
+    }
+}
+
+//end-footer
 
 
 

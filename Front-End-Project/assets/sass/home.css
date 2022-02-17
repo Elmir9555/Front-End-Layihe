@@ -2088,7 +2088,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
 }
 
 .contact-apps {
-  height: 280px;
+  height: 180px;
 }
 
 .contact-apps .row {
@@ -2097,7 +2097,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   display: flex;
   padding-top: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  height: 160px;
+  height: 140px;
 }
 
 .contact-apps .row .info-webapp {
@@ -2180,11 +2180,13 @@ main #cardss .cardss .card-imgg .imageb .bacola {
 .contact-apps .row .info-webapp .web-application .img-app .play-store {
   width: 120px;
   height: 40px;
+  cursor: pointer;
 }
 
 .contact-apps .row .info-webapp .web-application .img-app .app-store {
   width: 120px;
   height: 40px;
+  cursor: pointer;
 }
 
 .contact-apps .row .info-webapp .web-application .social-icon {
@@ -2195,6 +2197,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  cursor: pointer;
 }
 
 .contact-apps .row .info-webapp .web-application .social-icon .fb, .contact-apps .row .info-webapp .web-application .social-icon .twitter, .contact-apps .row .info-webapp .web-application .social-icon .instagram {
@@ -2204,5 +2207,36 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   border: 1px solid rgba(0, 0, 0, 0.25);
   padding-top: 8px;
   padding-left: 13px;
+}
+
+.end-footer .content-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+}
+
+.end-footer .content-end .copyright {
+  font-size: 12px;
+  color: grey;
+}
+
+.end-footer .content-end .privacy-visa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
+}
+
+.end-footer .content-end .privacy-visa .terms-cookies span {
+  font-size: 12px;
+  color: grey;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=home.css.map */
