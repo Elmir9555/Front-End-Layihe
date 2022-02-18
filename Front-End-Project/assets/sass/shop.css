@@ -844,6 +844,118 @@ body {
   list-style: none;
 }
 
+#pagination-advert .pagination-advert .row1 .col-3 .filter {
+  margin-top: 50px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .filter h4 {
+  font-family: 'Dosis', sans-serif;
+  font-size: .9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .filter-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .filter-price .price .prs {
+  font-size: 12px;
+  color: grey;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .filter-price .price .cnt {
+  font-weight: "Inter", sans-serif;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #202435;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .filter-price .fltr {
+  font-weight: "Inter", sans-serif;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #202435;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .product-status {
+  margin-top: 50px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .product-status h4 {
+  font-family: "dosis", sans-serif;
+  font-size: .9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio {
+  margin-top: 25px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio input {
+  width: 14px;
+  height: 14px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio #radioo {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio2 {
+  margin-top: 25px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio2 .form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio2 .form-check .count {
+  color: grey;
+  font-size: 15px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio2 input {
+  width: 14px;
+  height: 14px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .radio2 #radioo {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .product-status2 {
+  margin-top: 50px;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .product-status2 h4 {
+  font-family: "dosis", sans-serif;
+  font-size: .9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+#pagination-advert .pagination-advert .row1 .col-3 .gif-image {
+  margin-top: 70px;
+}
+
 #pagination-advert .pagination-advert .row1 .col-9 .img-advertt {
   position: relative;
   height: 250px;
