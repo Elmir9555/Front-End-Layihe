@@ -1,0 +1,1751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/sass/shop.css">
+
+    <title>Shop</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- header-adverset Section Start -->
+        <div class="head-advert">
+            <p>Due to the <strong>COVID 19</strong> epidemic, orders may be processed with a slight delay</p>
+        </div>
+        <!-- header-adverset Section End -->
+        <div class="row-head">
+            <div class="container">
+                <div class="row col-12">
+                    <div class="col-4 link-nav">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="./login.html">My account</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Order tracking</a></li>
+                        </ul>
+                    </div>
+
+                    <div class=" col-4 icon-adver">
+                        <i class="fa-solid fa-hand"></i>
+                        <span>100% Secure delivery without contacting the courier</span>
+                    </div>
+
+                    <div class="col-2 info">
+                        <span>Need help? Call Us: <a href="#">+ 0020 500</a></span>
+                    </div>
+
+                    <div class="col-2 currency">
+                        <div class="dropdown">
+                            <button class="dropbtn">English</button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#">English</a>
+                                <a href="#">Spanish</a>
+                                <a href="#">German</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="dropdown ps-3 ">
+                            <button class="dropbtn">USD</button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#">USD</a>
+                                <a href="#">INR</a>
+                                <a href="#">GBP</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="head-search-modal">
+            <div class="container ">
+                <div class="row search-basket">
+                    <div class="col-2 img">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt=""
+                            style="height:70%; width:85%">
+                        <p class="grocery">Online Grocery Shopping Center</p>
+                    </div>
+
+                    <div class="col-2 mdl">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                            id="modal-btn">
+                            <p class="your-loc">Your Location</p>
+                            <p class="select-loc">Select a Location</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Choose your Delivery Location
+                                        </h5>
+
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                            id="click">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <input type="text" placeholder="search your area">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+
+
+                                        <ul>
+                                            <li class="border-bottom">Select a Location <span>Min: $140</span> </li>
+                                            <li class="border-bottom">Alabama <span>Min: $160</span></li>
+                                            <li class="border-bottom">Alaska <span>Min: $170</span></li>
+                                            <li class="border-bottom">Arizona <span>Min: $120</span></li>
+                                            <li class="border-bottom">California <span>Min: $170</span></li>
+                                            <li class="border-bottom">Colorado <span>Min: $110</span></li>
+                                            <li class="border-bottom">Florida <span>Min: $210</span></li>
+                                            <li class="border-bottom">Georgia <span>Min: $130</span></li>
+                                            <li class="border-bottom">Kansas <span>Min: $190</span></li>
+                                            <li class="border-bottom">Minnesto <span>Min: $120</span></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 box-search">
+                        <input type="text" placeholder="Search for products...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="col-3 user-price">
+                        <div class="user">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="price">
+                            <strong>$0.00</strong>
+                        </div>
+
+                        <div class="dropdown">
+                            <div class="shop">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <div class="count">
+                                    0
+                                </div>
+                            </div>
+                            <div class="dropdown-content">
+                                <img src="https://img.icons8.com/bubbles/50/000000/shopping-bag.png" />
+                                <p>No products in the cart.</p>
+                                <hr style="margin-top:50px;">
+                                <div class="euro">We reduce shipping prices to only 2.49 €!</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown-list">
+            <div class="container">
+                <div class="row dropdown-hover">
+                    <div class="col-3 all-categories">
+                        <div class="dropdownbtn">
+                            <button id="list-btn" class="btn btn-secondary dropdown-toggle" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                ☰ ALL CATEGORIES
+                            </button>
+                            <div class="total-63">TOTAL 63 PRODUCTS</div>
+                            <div class="dropdown-menu drpdwn-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="dropdown">
+                                    <a class="dropdown-item w-100" href="#"><i class="fa-solid fa-apple-whole"></i>
+                                        Fruits &
+                                        Vegetables <i class="fa-solid fa-angle-right ms-5"></i></a>
+
+                                    <div class="dropdown-content">
+                                        <a href="#">Cuts & Sprouts</a>
+                                        <a href="#">Exotic Fruits & Veggies</a>
+                                        <a href="#">Fresh Fruits</a>
+                                        <a href="#">Fresh Vegetables</a>
+                                        <a href="#">Herbs & Seasonings</a>
+                                        <a href="#">Packaged Produce</a>
+                                        <a href="#">Party Trays</a>
+                                    </div>
+                                </div>
+
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-shrimp"></i> Meats & Seafood</a>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-egg"></i> Breakefast & Dairy
+                                </a>
+                                <div class="dropdown">
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-apple-whole"></i> Beverages
+                                        <i class="fa-solid fa-angle-right ms-5"></i></a>
+
+                                    <div class="dropdown-content">
+                                        <a href="#">Coffe</a>
+                                        <a href="#">Craft Beer</a>
+                                        <a href="#">Drink Boxes & Pouches</a>
+                                        <a href="#">Milk & Plant-Based Milk</a>
+                                        <a href="#">Soda & Pop</a>
+                                        <a href="#">Sparkling Water</a>
+                                        <a href="#">Tea & Kombucha</a>
+                                        <a href="#">Water</a>
+                                        <a href="#">Wine</a>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-cookie"></i> Breads and
+                                    Bakery</a>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-snowflake"></i> Frozen Food</a>
+                                <a class="dropdown-item" href="#"><i class="fa-solid fa-cookie-bite"></i>Biscuits &
+                                    Snacks</a>
+                                <a class="dropdown-item" href="#"><i class="fa-brands fa-instalod"></i> Grocery &
+                                    Staples</a>
+                                <hr style="margin-top:35px;">
+                                <a href="#" id="end">Value of the day</a><br>
+                                <a href="#" id="end">Top 100 offers</a><br>
+                                <a href="#" id="end">New Arrivals</a><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-9 hover-list">
+                        <div class="col-3 hover-drop">
+                            <div class="dropdown">
+                                <button class="dropbtn">HOME <i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Home 1</a>
+                                    <a href="#">Home 2</a>
+                                    <a href="#">Home 3</a>
+                                    <a href="#">Home 4</a>
+                                    <a href="#">Home 5</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown1">
+                                <button class="dropbtn">SHOP <i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content1 ">
+                                    <div class="container">
+                                        <div>
+                                            <h6>Shop Lists</h6>
+                                            <ul>
+                                                <li><a href="#">Shop Default</a></li>
+                                                <li><a href="#">Shop Right Sidebar</a></li>
+                                                <li><a href="#">Shop Wide</a></li>
+                                                <li><a href="#">List Left Sidebar</a></li>
+                                                <li><a href="#">Load More Button</a></li>
+                                                <li><a href="#">Infinite Scrolling</a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6>Product Detail</h6>
+                                            <ul>
+                                                <li><a href="#">Product Default</a></li>
+                                                <li><a href="#">Product Variable</a></li>
+                                                <li><a href="#">Product Grouped</a></li>
+                                                <li><a href="#">Product External</a></li>
+                                                <li><a href="#">Product Downloadable</a></li>
+                                                <li><a href="#">Product With Video</a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6>Product Types</h6>
+                                            <ul>
+                                                <li><a href="#">Single Type 1</a></li>
+                                                <li><a href="#">Single Type 2</a></li>
+                                                <li><a href="#">Single Type 3</a></li>
+                                                <li><a href="#">Single Type 4</a></li>
+                                                <li><a href="#">Thumbnails Left</a></li>
+                                                <li><a href="#">Zoom Image</a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6>Shop Pages</h6>
+                                            <ul>
+                                                <li><a href="#">Cart</a></li>
+                                                <li><a href="#">Checkout</a></li>
+                                                <li><a href="#">My account</a></li>
+                                                <li><a href="#">Wishlist</a></li>
+                                                <li><a href="#">Order Tracking</a></li>
+                                                <li><a href="#">Order on WhatsApp</a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6>Shop Layouts</h6>
+                                            <ul>
+                                                <li><a href="#">Two Columns</a></li>
+                                                <li><a href="#">Three Columns</a></li>
+                                                <li><a href="#">Three Columns Wide</a></li>
+                                                <li><a href="#">Four Columns</a></li>
+                                                <li><a href="#">Four Columns Wide</a></li>
+                                                <li><a href="#">Five Columns Wide</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 hover">
+
+                            <div class="col-5 cl4">
+                                <i class="fa-solid fa-cheese"></i>
+                                <a href="#">MEATS & SEAFOOD</a>
+                            </div>
+                            <div class="col-3 cl4">
+                                <i class="fa-solid fa-cookie"></i>
+                                <a href="#">BAKERY</a>
+                            </div>
+                            <div class="col-4 cl4">
+                                <i class="fa-solid fa-mug-hot"></i>
+                                <a href="#">BAVERAGES</a>
+                            </div>
+
+                        </div>
+                        <div class="col-3 blog-contact">
+                            <div class="col-5">BLOG</div>
+                            <div class="col-5">CONTACT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="first-row">
+            <div class="first-row">
+                <div class="container">
+                    <div class="transition">
+                        <span class="home">HOME</span>
+                        <span class="icon">
+                            <i class="fa-solid fa-greater-than"></i>
+                        </span>
+
+                        <span class="account">SHOP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pagination-advert">
+            <div class="pagination-advert">
+                <div class="container">
+                    <div class="row row1">
+                        <div class="col-3">
+                            <div class="product-categories">
+                                <div class="product-categories-title">
+                                    <p>PRODUCT CATEGORIES</p>
+                                </div>
+                                <div class="product-categories-checkbox">
+                                    <div class="form-check beverages">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <div class="beverages-label">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Beverages
+
+                                            </label>
+                                            <i class="fas fa-plus product-categories-plus"></i>
+                                        </div>
+
+                                        <ul class="d-none">
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Coffee
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Craft Beer
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Drink Boxes & Pouches
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Milk & Plant-based Milk
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Soda & Pop
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Sparkling Water
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Tea & Kombucha
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Water
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Wine
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Biscuits & Snacks
+                                        </label>
+
+                                    </div>
+                                    <div class="form-check breads">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <div class="breads-label">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Breads & Bakery
+                                            </label>
+                                            <i class="fas fa-plus product-categories-plus"></i>
+                                        </div>
+                                        <ul class="d-none">
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Buns and Rolls
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Cakes and Cupcakes
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Cookies & Brownies
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Donuts & Muffins
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Order Specialty Cakes
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Packaged Breads
+                                                </label>
+                                            </li>
+                                        </ul>
+
+
+                                    </div>
+                                    <div class="form-check breakfast">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <div class="breakfast-label">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Breakfast & Dairy
+                                            </label>
+                                            <i class="fas fa-plus product-categories-plus"></i>
+                                        </div>
+                                        <ul class="d-none">
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Butter & Margarine
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Cheese
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Eggs Substitutes
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Honey
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Marmalades
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Milk & Flavoured Milk
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Sour-cream & Dips
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Yogurt
+                                                </label>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Frozen Foods
+                                        </label>
+                                    </div>
+                                    <div class="form-check fruits">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <div class="fruits-label">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                                Fruits & Vegetables
+                                            </label>
+                                            <i class="fas fa-plus product-categories-plus"></i>
+                                        </div>
+                                        <ul class="d-none">
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Herbs & Seasonings
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Packaged Produce
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Party Trays
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Cuts & Sprouts
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Exotic Fruits & Veggies
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Fresh Fruits
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Fresh Vegetables
+                                                </label>
+                                            </li>
+
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Grocery & Staples
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Household Needs
+                                        </label>
+                                    </div>
+                                    <div class="form-check meats">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <div class="meats-label">
+                                            <label class="form-check-label meats-label" for="defaultCheck1">
+                                                Meats & Seafood
+                                            </label>
+                                            <i class="fas fa-plus product-categories-plus"></i>
+                                        </div>
+                                        <ul class="d-none">
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Shrimp
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Sliced Deli Meat
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Wild Caught Fillets
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Beef
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Breakfast Sausage
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Chicken
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Crab & Shellfish
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Dinner Sausage
+                                                </label>
+                                            </li>
+                                            <li><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Farm Raised Fillets
+                                                </label>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="filter">
+                                <h4>FILTER BY PRICE</h4>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-9">
+                            <div class="img-advertt">
+                                <img src="./assets/img/eat.jpeg" alt="" style="width: 100%; height:100%">
+                                <div class="img-content">
+                                    <h4>Organic Meals Prepared</h4>
+                                    <h3>Delivered to <span>your Home</span> </h3>
+                                    <p>Fully prepared & delivered naationwide</p>
+                                </div>
+                            </div>
+
+                            <div class="very-icon">
+                                <div class="icon">
+                                    <i class="fas fa-bars"></i>
+                                    <i class="fas fa-th-large"></i>
+                                    <i class="fas fa-th"></i>
+                                    <i class="fa-solid fa-table-cells" style="color:black;"></i>
+                                </div>
+
+
+                                <div class="drpdwn-list">
+                                    <div class="drpdw-flex">
+                                        <div class="dropdown">
+                                            <button class="dropbtn"
+                                                style="border-right: 1px solid #e4e5ee; padding-right:20px;">Sort by
+                                                latest <i class="fa-solid fa-angle-down"></i></button>
+                                            <div class="dropdown-content" style="width:200px;">
+                                                <a href="#">Sort by popularity</a>
+                                                <a href="#">Sort by average rating</a>
+                                                <a href="#" style="color:rgb(23, 63, 206)">Sort by latest</a>
+                                                <a href="#">Sort by price:low to high</a>
+                                                <a href="#">Sort by price:high to low</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="dropdown">
+                                            <button class="dropbtn" style=" width:120px; "><span
+                                                    style="color:#cbcbce ;padding-right:10px;">Show</span> 12 <i
+                                                    class="fa-solid fa-angle-down"></i></button>
+                                            <div class="dropdown-content" style="width:120px;">
+                                                <a href="#">12</a>
+                                                <a href="#">24</a>
+                                                <a href="#">36</a>
+                                                <a href="#">48</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="advert-product">
+                                <div class="row">
+                                    <div class="col-3 brd">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/italian style.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    23%
+                                                </div>
+                                                <div class="recommended">
+                                                    RECOMMENDED
+                                                </div>
+
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name">All Natural Italian-Style Chicken Meatballs</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$9.35</span>
+                                                    <span class="now-price">$7.25</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/boom chicka.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    24%
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name" style="width: 200px;">Angie’s Boomchickapop Sweet &
+                                                    Salty Kettle Corn</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$4.29</span>
+                                                    <span class="now-price">$3.29</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 ">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/chao.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    19%
+                                                </div>
+                                                <div class="organic">
+                                                    ORGANIC
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name">Field Roast Chao Cheese Creamy Original</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$24.00</span>
+                                                    <span class="now-price">$19.50</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 brd4">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/crispy wings.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+
+
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name">Foster Farms Takeout Crispy Classic Buffalo Wings</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+
+                                                    <span class="now-price1">$7.25 <span>-</span> $49.99</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/blue diamond.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    10%
+                                                </div>
+                                                <div class="organic">
+                                                    ORGANIC
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name">Blue Diamond Almonds Lightly Salted</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$11.68</span>
+                                                    <span class="now-price">$10.58</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 ">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/fresh.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    12%
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name " style="width: 180px;">Blueberries – 1 Pint Package</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$4.49</span>
+                                                    <span class="now-price">$3.99</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/brocolli.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    29%
+                                                </div>
+                                                <div class="organic">
+                                                    ORGANIC
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name" style="width: 200px;">Fresh Organic Broccoli Crowns</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$6.77</span>
+                                                    <span class="now-price">$4.85</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 ">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/protein.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    19%
+                                                </div>
+                                                <div class="recommended">
+                                                    RECOMMENDED
+                                                </div>
+
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name">Chobani Complete Vanilla Greek Yogurt</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$5.49</span>
+                                                    <span class="now-price">$4.49</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 brd2">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/kakos.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    21%
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name" style="width: 200px;">Fresh Brown Coconut</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$19.58</span>
+                                                    <span class="now-price">$15.48</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/holland.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    61%
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name" style="width: 200px;">American Cheese Singles</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$8.29</span>
+                                                    <span class="now-price">$3.29</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/quru.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name" style="width: 200px;">100% Butter French Croissants</p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+
+                                                    <span class="now-price">$1.44</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 brd3">
+                                        <div class="img-products">
+
+                                            <div class="container">
+                                                <div class="product-img">
+                                                    <img src="./assets/img/dry-bottle.jpeg" alt="" width="100%" ;
+                                                        height="100%">
+                                                </div>
+                                                <div class="percent">
+                                                    41%
+                                                </div>
+                                                <div class="heart-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                                </div>
+                                                <div class="collapse-icon">
+                                                    <img
+                                                        src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                                </div>
+                                                <button id="add-cart">Add to cart</button>
+                                                <p class="name" style="width: 200px;">Canada Dry Ginger Ale – 2 L Bottle
+                                                </p>
+
+
+                                                <span class="stock">IN STOCK</span>
+
+                                                <div class="star">
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign"></i>
+                                                    <i class="fa-solid fa-star" id="sign1"></i>
+                                                    <span class="count">1</span>
+                                                </div>
+
+                                                <div class="price">
+                                                    <span class="sale1">$6.45</span>
+                                                    <span class="now-price">$3.85</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="pagination">
+                                <div class="one">1</div>
+                                <div class="two">2</div>
+                                <div class="two">3</div>
+                                <div class="two">4</div>
+                                <div class="two">5</div>
+                                <div class="two">6</div>
+                                <div class="iconar">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="end-main">
+            <div class="end-main">
+                <div class="container">
+                    <div class="recently-content">
+                        <h4>RECENTLY VIEWED PRODUCTS</h4>
+                    </div>
+
+                    <div class="row end-advert">
+
+                        <div class="col-3 brd">
+                            <div class="img-products">
+
+                                <div class="container">
+                                    <div class="product-img">
+                                        <img src="./assets/img/italian style.jpeg" alt="" width="100%" ; height="100%">
+                                    </div>
+                                    <div class="percent">
+                                        23%
+                                    </div>
+                                    <div class="recommended">
+                                        RECOMMENDED
+                                    </div>
+
+                                    <div class="heart-icon">
+                                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                    </div>
+                                    <div class="collapse-icon">
+                                        <img src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                    </div>
+
+                                    <button id="add-cart">Add to cart</button>
+                                    <p class="name">All Natural Italian-Style Chicken Meatballs</p>
+
+
+                                    <span class="stock">IN STOCK</span>
+
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign1"></i>
+                                        <span class="count">1</span>
+                                    </div>
+
+                                    <div class="price">
+                                        <span class="sale1">$9.35</span>
+                                        <span class="now-price">$7.25</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-3 ">
+                            <div class="img-products">
+
+                                <div class="container">
+                                    <div class="product-img">
+                                        <img src="./assets/img/chao.jpeg" alt="" width="100%" ;
+                                            height="100%">
+                                    </div>
+                                    <div class="percent">
+                                        19%
+                                    </div>
+                                    <div class="organic">
+                                        ORGANIC
+                                    </div>
+                                    <div class="heart-icon">
+                                        <img
+                                            src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                    </div>
+                                    <div class="collapse-icon">
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                    </div>
+                                    <button id="add-cart">Add to cart</button>
+                                    <p class="name">Field Roast Chao Cheese Creamy Original</p>
+
+
+                                    <span class="stock">IN STOCK</span>
+
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <span class="count">1</span>
+                                    </div>
+
+                                    <div class="price">
+                                        <span class="sale1">$24.00</span>
+                                        <span class="now-price">$19.50</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="img-products">
+
+                                <div class="container">
+                                    <div class="product-img">
+                                        <img src="./assets/img/meatss.jpeg" alt="" width="100%" ;
+                                            height="100%">
+                                    </div>
+                                    <div class="percent">
+                                        24%
+                                    </div>
+                                    <div class="heart-icon">
+                                        <img
+                                            src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                    </div>
+                                    <div class="collapse-icon">
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                    </div>
+                                    <button id="add-cart">Add to cart</button>
+                                    <p class="name" style="width: 260px;">USDA Choice Angus Beef Stew Meat</p>
+
+
+                                    <span class="stock">IN STOCK</span>
+
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign1"></i>
+                                        <span class="count">1</span>
+                                    </div>
+
+                                    <div class="price">
+                                        <span class="sale1">$79.99</span>
+                                        <span class="now-price">$49.99</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div class="img-products">
+
+                                <div class="container">
+                                    <div class="product-img">
+                                        <img src="./assets/img/kreatin.jpeg" alt="" width="100%" ;
+                                            height="100%">
+                                    </div>
+                                    <div class="percent">
+                                        26%
+                                    </div>
+                                    <div class="heart-icon">
+                                        <img
+                                            src="https://img.icons8.com/material-outlined/24/000000/like--v1.png" />
+                                    </div>
+                                    <div class="collapse-icon">
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/000000/collapse.png" />
+                                    </div>
+                                    <button id="add-cart">Add to cart</button>
+                                    <p class="name" style="width: 250px;">Warrior Blend Organic</p>
+
+
+                                    <span class="stock">IN STOCK</span>
+
+                                    <div class="star">
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign"></i>
+                                        <i class="fa-solid fa-star" id="sign1"></i>
+                                        <i class="fa-solid fa-star" id="sign1"></i>
+                                        <span class="count">1</span>
+                                    </div>
+
+                                    <div class="price">
+                                        <span class="sale1">$39.00</span>
+                                        <span class="now-price">$29.00</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <div class="first-part-footer">
+            <div class="container">
+                <div class="incontainer">
+                    <div class="input-content">
+                        <p class="price-usdd">$20 discount for your first order</p>
+                        <h2>Join our newsletter and get...</h2>
+                        <p class="email-info">Join our email subscription now to get updates on promotions and coupons.
+                        </p>
+                        <input type="text" placeholder=" Your email adress">
+                        <i class="fa-solid fa-envelope"></i>
+                        <button id="subscribe">Subscribe</button>
+                    </div>
+
+
+                    <div class="image-letter">
+                        <img src="./assets/img/ticket.png" alt="" style="width:100%;height:100%">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="delivery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="everyday">
+                            <div class="icon-milk">
+                                <i class="fa-solid fa-prescription-bottle"></i>
+                            </div>
+                            <div class="fresh">Everyday fresh products</div>
+
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="everyday">
+                            <div class="icon-milk">
+                                <i class="fa-solid fa-truck"></i>
+                            </div>
+                            <div class="fresh">Everyday fresh products</div>
+
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="everyday">
+                            <div class="icon-milk">
+                                <i class="fa-solid fa-percent"></i>
+                            </div>
+                            <div class="fresh">Everyday fresh products</div>
+
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="col-12 everyday">
+                            <div class="icon-milk">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="fresh">Everyday fresh products</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 ">
+                        <h6>FRUIT & VEGETABLES</h6>
+                        <ul>
+                            <li>Fresh Vegetables</li>
+                            <li>Herbs & Seasonings</li>
+                            <li>Fresh Fruits</li>
+                            <li>Cuts & Sprouts</li>
+                            <li>Exotic Fruits & Veggies</li>
+                            <li>Packaged Produce</li>
+                            <li>Party Trays</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h6>BREAKFAST & DAIRY</h6>
+                        <ul>
+                            <li>Milk & Flavoured Milk</li>
+                            <li>Butter and Margarine</li>
+                            <li>Cheese</li>
+                            <li>Eggs Substitutes</li>
+                            <li>Honey</li>
+                            <li>Marmalades</li>
+                            <li>Sour Cream and Dips</li>
+                            <li>Yogurt</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h6>MEAT & SEAFOOD</h6>
+                        <ul>
+                            <li>Breakfast Sausage</li>
+                            <li>Dinner Sausage</li>
+                            <li>Beef</li>
+                            <li>Chickens</li>
+                            <li>Sliced Deli Meat</li>
+                            <li>Shrimp</li>
+                            <li>Wild Caught Fillets</li>
+                            <li>Crab and Shellfish</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h6>BEVERAGES</h6>
+                        <ul>
+                            <li>Water</li>
+                            <li>Sparkling Water</li>
+                            <li>Soda & Pop</li>
+                            <li>Coffee</li>
+                            <li>Milk & Plant-Based Milk</li>
+                            <li>Tea & Kombucha</li>
+                            <li>Craft Beer</li>
+                            <li>Wine</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h6>BREADS & BAKERY </h6>
+                        <ul>
+                            <li>Milk & Flavoured Milk</li>
+                            <li>Butter and Margarine</li>
+                            <li>Cheese</li>
+                            <li>Eggs Substitutes</li>
+                            <li>Honey</li>
+                            <li>Marmalades</li>
+                            <li>Sour Cream and Dips</li>
+                            <li>Yogurt</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-apps">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 info-webapp">
+                        <div class="call-working">
+                            <div class="call-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-working">
+                                <h3>
+                                    8 800 555-55
+
+                                </h3>
+                                <span>Working 8:00 - 22:00</span>
+                            </div>
+                        </div>
+
+
+                        <div class="web-application">
+                            <div class="download-content">
+                                <h6>Download App on Mobile :</h6>
+                                <p>15% discount on your first purchase</p>
+                            </div>
+                            <div class="img-app ">
+                                <div class="app-store ">
+                                    <img src="./assets/img/google-play.png" alt="" style="width:100%;height:100%">
+                                </div>
+                                <div class="play-store ">
+                                    <img src="./assets/img/app-store.png" alt="" style="width:100%;height:100%">
+                                </div>
+                            </div>
+
+                            <div class="social-icon">
+                                <div class="fb">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="end-footer">
+            <div class="container">
+                <div class="content-end">
+                    <div class="copyright">
+                        Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.
+                    </div>
+                    <div class="privacy-visa">
+                        <div class="terms-cookies">
+                            <span class="policy">Privacy Policy</span>
+                            <span class="terms">Terms and Conditions</span>
+                            <span class="cookie">Cookie</span>
+                        </div>
+                        <div class="payments-image">
+                            <div class="payment">
+                                <img src="./assets/img/payments.jpeg" alt="" style="width:100%;height:100%">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/ad811518ca.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./assets/js/shop.js"></script>
+
+</body>
+
+</html>

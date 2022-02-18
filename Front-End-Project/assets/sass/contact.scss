@@ -1,6 +1,9 @@
 $primarycolor:rgb(76, 81, 101);
 $primarycolor2:rgb(44, 190, 248);
 $primaryfontfamily:"Inter",sans-serif;
+$buttoncolor:rgb(35, 57, 149);
+$primarybordercolor:#e4e5ee;
+$family:"dosis",sans-serif;
 
 *{
     box-sizing: border-box;
@@ -399,7 +402,7 @@ body{
 
 .dropdown-list{
     margin-top:25px;
-    border-bottom:1px solid rgba(0,0,0,.25);
+    border-bottom:1px solid $primarybordercolor;
     height: 70px;
 
     .dropdown-hover{

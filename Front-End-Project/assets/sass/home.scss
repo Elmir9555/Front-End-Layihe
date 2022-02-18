@@ -1,6 +1,9 @@
 $primarycolor:rgb(76, 81, 101);
 $primarycolor2:rgb(44, 190, 248);
 $primaryfontfamily:"Inter",sans-serif;
+$buttoncolor:rgb(35, 57, 149);
+$primarybordercolor:#e4e5ee;
+$family:"dosis",sans-serif;
 
 *{
     box-sizing: border-box;
@@ -931,6 +934,7 @@ main{
                             font-size:15px;
                             text-decoration: line-through;
                             font-weight: bold;
+                            
                         }
 
                         .now-price{
@@ -938,6 +942,7 @@ main{
                             font-size:17px;
                             font-weight:bold;
                             margin-left: 10px;
+                            
                         }
                     }
                     .vanilla{
