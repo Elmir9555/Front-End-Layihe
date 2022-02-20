@@ -44,7 +44,7 @@ body{
 .row-head{
     width:100%;
     height: 40px;
-    border-bottom: 1px solid rgb(194, 191, 191);
+    border-bottom: 1px solid $primarybordercolor;
 
     .row{
         display: flex;
@@ -80,7 +80,7 @@ body{
             display: flex;
             padding-top: 0;
             padding-left: 63px;
-            border-right: 1px solid grey;
+            border-right: 1px solid $primarybordercolor;
             color: grey;
 
             i{
@@ -94,7 +94,7 @@ body{
         }
         .info{
             font-size:12px;
-            border-right: 1px solid grey;
+            border-right: 1px solid $primarybordercolor;
             color: grey;
             width:18%;
 
@@ -628,11 +628,23 @@ body{
                     height: 35px;
                     padding: 0px;
                     transition: all 1s;
+
+                    a{
+                        color: black;
+                        display: inline-block;
+                       
+                        &:hover{
+                            color: $primarycolor2;
+                        }
+                    }
+                    
                   }
                   
                   .dropdown1 {
                     position: relative;
                     display: inline-block;
+
+                  
                   }
                   
                   .dropdown-content1 {
@@ -707,6 +719,17 @@ body{
                     transition: all 0.5s;
                     cursor: pointer;
 
+                    a{
+                        
+                        transition: all 0.5s;
+                        cursor: pointer;
+                        color: black;
+                        font-weight: 500;
+                        &:hover{
+                            color: $primarycolor2;
+                        }
+                    }
+
                     &:hover{
                         background-color:rgb(240, 250, 254);
                         color: $primarycolor2;
@@ -728,11 +751,34 @@ body{
 
 main{
     #slider{
+
+        .carousel-control-prev-icon{
+            background-color: rgb(109, 108, 108);
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            position: absolute;
+            left: 40px;
+            
+            
+        }
+        .carousel-control-next-icon{
+            background-color: rgb(109, 108, 108);
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            position: absolute;
+            right: 50px;
+        }
         margin-top:30px;
          .content{
              position: absolute;
              top: 70px;
              left: 150px;
+
+           
 
              .exclusive{
                  font-size: 12px;
@@ -1029,7 +1075,7 @@ main{
                         }
                        
                         .col-4{
-                            border: 1px solid rgba(0,0,0,.25);
+                            border: 1px solid $primarybordercolor;
                             height: 370px ;
 
                             
@@ -1069,7 +1115,7 @@ main{
                                     width: 45px;
                                     height: 45px;
                                     border-radius:40px;
-                                    border:1px solid rgba(196, 196, 196, 0.25);
+                                    border:1px solid $primarybordercolor;
                                     background-color:white;
                                     opacity: 0;
                                     img{
@@ -1087,7 +1133,7 @@ main{
                                     width: 45px;
                                     height: 45px;
                                     border-radius:40px;
-                                    border: 1px solid rgba(196, 196, 196, 0.25);
+                                    border: 1px solid $primarybordercolor;
                                     background-color:white;
                                     opacity: 0;
                                     
@@ -1171,7 +1217,7 @@ main{
                                 .name{
                                     height:35px;
                                     width: 220px;
-                                    color: var(--color-text);
+                                    color: #202435;
                                     cursor: pointer;
                                     transition: all 0.2s;
                                     margin-top:10px;
@@ -1360,7 +1406,7 @@ main{
                     right: 20px;                   
                     width:120px;
                     height: 30px;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
                     border-radius: 20px;
                     padding-left: 30px;
                     padding-top: 2px;
@@ -1421,7 +1467,7 @@ main{
                     width: 50px;
                     height: 50px;
                     border-radius: 50px;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
                     
                 }
                 .owl-next{
@@ -1432,14 +1478,14 @@ main{
                     width: 50px;
                     height: 50px;
                     border-radius: 50px;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
                 }
                 .item{
                     cursor:pointer;
                    height: 400px;
                     position: relative;                   
                     transition: all 2s;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
 
 
                     &:hover{
@@ -1501,7 +1547,7 @@ main{
                         width: 45px;
                         height: 45px;
                         border-radius:40px;
-                        border:1px solid rgba(196, 196, 196, 0.25);
+                        border:1px solid $primarybordercolor;
                         background-color:white;
                         opacity: 0;
                         img{
@@ -1520,7 +1566,7 @@ main{
                         width: 45px;
                         height: 45px;
                         border-radius:40px;
-                        border: 1px solid rgba(196, 196, 196, 0.25);
+                        border: 1px solid $primarybordercolor;
                         background-color:white;
                         opacity: 0;
                         
@@ -1552,7 +1598,7 @@ main{
                     .name{
                         height:35px;
                         width: 220px;
-                        color: var(--color-text);
+                        color: #202435;
                         cursor: pointer;
                         transition: all 0.2s;
                         margin-top:10px;
@@ -1674,14 +1720,14 @@ main{
                 }
                 .col-4{
                     height:300px;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
                     width: 20.333333% !important;
                     
                    
                 }
                 .col-2{
                     width: 19.666667%;;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
                     height:300px ;
                 }
 
@@ -1691,7 +1737,7 @@ main{
                     height: 380px;
                     position: relative;                   
                     transition: all 2s;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
 
 
                     &:hover{
@@ -1755,7 +1801,7 @@ main{
                         width: 45px;
                         height: 45px;
                         border-radius:40px;
-                        border:1px solid rgba(196, 196, 196, 0.25);
+                        border:1px solid $primarybordercolor;
                         background-color:white;
                         opacity: 0;
                         img{
@@ -1774,7 +1820,7 @@ main{
                         width: 45px;
                         height: 45px;
                         border-radius:40px;
-                        border: 1px solid rgba(196, 196, 196, 0.25);
+                        border: 1px solid $primarybordercolor;
                         background-color:white;
                         opacity: 0;
                         
@@ -1808,7 +1854,7 @@ main{
                     .name{
                         height:35px;
                         width: 217px;
-                        color: var(--color-text);
+                        color:#202435;
                         cursor: pointer;
                         transition: all 0.2s;
                         margin-top:10px;
@@ -2085,9 +2131,9 @@ main{
    
     .row{
         height:70px;
-        border-bottom: 1px solid rgba(0,0,0,.25);
+        border-bottom: 1px solid $primarybordercolor;
         padding-top: 25px;
-        // margin-top:30px;
+        
        
 
         .col-3{
@@ -2098,7 +2144,7 @@ main{
                 display: flex;
                 justify-content:center;
                 align-items:center;
-                border-right: 1px solid rgba(0,0,0,.25);
+                border-right: 1px solid $primarybordercolor;
                 .fresh{
                     margin-left: 10px;
                     font-family: $primaryfontfamily;
@@ -2142,7 +2188,7 @@ main{
     .row{
         display: flex;
         padding-top:40px;
-        border-bottom:1px solid rgba(0,0,0,.25);
+        border-bottom:1px solid $primarybordercolor;
         height:140px;
         .info-webapp{
             display: flex;
@@ -2157,7 +2203,7 @@ main{
                     width:45px;
                     height:45px;
                     border-radius:45px;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
                     padding:14px;
                     padding-left:17px;
                     color:grey;
@@ -2234,7 +2280,7 @@ main{
                         width: 40px;
                         height: 40px;
                         border-radius:40px;
-                        border: 1px solid rgba(0,0,0,.25);
+                        border: 1px solid $primarybordercolor;
                         padding-top: 8px;
                         padding-left: 13px;
                         
@@ -2260,12 +2306,17 @@ main{
             display:flex;
             justify-content: space-between;
             width: 600px;
+            cursor: pointer;
+            
 
             .terms-cookies{
+                cursor: pointer;
+               
                 span{
                     font-size:12px;
                     color: grey;
                     margin-left:10px;
+                    
                 }
             }
            

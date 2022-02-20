@@ -1,6 +1,7 @@
 $primarycolor:rgb(76, 81, 101);
 $primarycolor2:rgb(44, 190, 248);
 $primaryfontfamily:"Inter",sans-serif;
+$primarybordercolor:#e4e5ee;
 
 *{
     box-sizing: border-box;
@@ -44,7 +45,7 @@ body{
 .row-head{
     width:100%;
     height: 40px;
-    border-bottom: 1px solid rgb(194, 191, 191);
+    border-bottom: 1px solid $primarybordercolor;
 
     .row{
         display: flex;
@@ -80,7 +81,7 @@ body{
             display: flex;
             padding-top: 0;
             padding-left: 63px;
-            border-right: 1px solid grey;
+            border-right: 1px solid $primarybordercolor;
             color: grey;
 
             i{
@@ -94,7 +95,7 @@ body{
         }
         .info{
             font-size:12px;
-            border-right: 1px solid grey;
+            border-right: 1px solid $primarybordercolor;
             color: grey;
             width:18%;
 
@@ -181,7 +182,7 @@ body{
                 width:190px;
                 background-color:white;
                 color: rgb(75, 93, 169);
-                border:1px solid rgb(175, 175, 175);
+                border:1px solid $primarybordercolor;
                 border-radius: 7px;
                 margin-top:5px;             
                 font-size: 12px;
@@ -237,7 +238,7 @@ body{
                     cursor:pointer;
 
                    span{
-                       border: 1px solid grey;
+                       border: 1px solid $primarybordercolor;
                        border-radius: 10px;
                        font-size:10px;
                        position: absolute;
@@ -248,7 +249,7 @@ body{
                    }
                     li{
                         line-height: 50px;
-                        border-bottom: 1px solid grey;
+                        border-bottom: 1px solid $primarybordercolor;
                         color:rgb(107, 106, 106);
 
                     }
@@ -298,7 +299,7 @@ body{
             margin-left: 20px;
 
             .user{
-                border: 1px solid rgb(185, 185, 185);
+                border: 1px solid $primarybordercolor;
                 border-radius: 30px;
                 width:50px;
                 height: 50px;
@@ -959,7 +960,7 @@ body{
    
     .row{
         height:70px;
-        border-bottom: 1px solid rgba(0,0,0,.25);
+        border-bottom: 1px solid $primarybordercolor;
         padding-top: 25px;
         // margin-top:30px;
        
@@ -972,7 +973,7 @@ body{
                 display: flex;
                 justify-content:center;
                 align-items:center;
-                border-right: 1px solid rgba(0,0,0,.25);
+                border-right: 1px solid $primarybordercolor;
                 .fresh{
                     margin-left: 10px;
                     font-family: $primaryfontfamily;
@@ -1016,7 +1017,7 @@ body{
     .row{
         display: flex;
         padding-top:40px;
-        border-bottom:1px solid rgba(0,0,0,.25);
+        border-bottom:1px solid $primarybordercolor;
         height:140px;
         .info-webapp{
             display: flex;
@@ -1031,7 +1032,7 @@ body{
                     width:45px;
                     height:45px;
                     border-radius:45px;
-                    border: 1px solid rgba(0,0,0,.25);
+                    border: 1px solid $primarybordercolor;
                     padding:14px;
                     padding-left:17px;
                     color:grey;
@@ -1108,7 +1109,7 @@ body{
                         width: 40px;
                         height: 40px;
                         border-radius:40px;
-                        border: 1px solid rgba(0,0,0,.25);
+                        border: 1px solid $primarybordercolor;
                         padding-top: 8px;
                         padding-left: 13px;
                         

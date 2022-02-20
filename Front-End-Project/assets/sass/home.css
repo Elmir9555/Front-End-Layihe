@@ -33,7 +33,7 @@ body {
 .row-head {
   width: 100%;
   height: 40px;
-  border-bottom: 1px solid #c2bfbf;
+  border-bottom: 1px solid #e4e5ee;
 }
 
 .row-head .row {
@@ -75,7 +75,7 @@ body {
   display: flex;
   padding-top: 0;
   padding-left: 63px;
-  border-right: 1px solid grey;
+  border-right: 1px solid #e4e5ee;
   color: grey;
 }
 
@@ -86,7 +86,7 @@ body {
 
 .row-head .row .info {
   font-size: 12px;
-  border-right: 1px solid grey;
+  border-right: 1px solid #e4e5ee;
   color: grey;
   width: 18%;
 }
@@ -626,6 +626,15 @@ body {
   transition: all 1s;
 }
 
+.dropdown-list .dropdown-hover .hover-list .hover-drop .dropbtn a {
+  color: black;
+  display: inline-block;
+}
+
+.dropdown-list .dropdown-hover .hover-list .hover-drop .dropbtn a:hover {
+  color: #2cbef8;
+}
+
 .dropdown-list .dropdown-hover .hover-list .hover-drop .dropdown1 {
   position: relative;
   display: inline-block;
@@ -714,6 +723,18 @@ body {
   cursor: pointer;
 }
 
+.dropdown-list .dropdown-hover .hover-list .blog-contact .col-5 a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+
+.dropdown-list .dropdown-hover .hover-list .blog-contact .col-5 a:hover {
+  color: #2cbef8;
+}
+
 .dropdown-list .dropdown-hover .hover-list .blog-contact .col-5:hover {
   background-color: #f0fafe;
   color: #2cbef8;
@@ -721,6 +742,26 @@ body {
 
 main #slider {
   margin-top: 30px;
+}
+
+main #slider .carousel-control-prev-icon {
+  background-color: #6d6c6c;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: absolute;
+  left: 40px;
+}
+
+main #slider .carousel-control-next-icon {
+  background-color: #6d6c6c;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: absolute;
+  right: 50px;
 }
 
 main #slider .content {
@@ -1027,7 +1068,7 @@ main #plugin-productprice .plugin-productprice .row .card-product .row3 .brd4 {
 }
 
 main #plugin-productprice .plugin-productprice .row .card-product .row3 .col-4 {
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
   height: 370px;
 }
 
@@ -1066,7 +1107,7 @@ main #plugin-productprice .plugin-productprice .row .card-product .row3 .col-4 .
   width: 45px;
   height: 45px;
   border-radius: 40px;
-  border: 1px solid rgba(196, 196, 196, 0.25);
+  border: 1px solid #e4e5ee;
   background-color: white;
   opacity: 0;
 }
@@ -1085,7 +1126,7 @@ main #plugin-productprice .plugin-productprice .row .card-product .row3 .col-4 .
   width: 45px;
   height: 45px;
   border-radius: 40px;
-  border: 1px solid rgba(196, 196, 196, 0.25);
+  border: 1px solid #e4e5ee;
   background-color: white;
   opacity: 0;
 }
@@ -1169,7 +1210,7 @@ main #plugin-productprice .plugin-productprice .row .card-product .row3 .col-4 .
 main #plugin-productprice .plugin-productprice .row .card-product .row3 .col-4 .img-products .name {
   height: 35px;
   width: 220px;
-  color: var(--color-text);
+  color: #202435;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -1352,7 +1393,7 @@ main #short-content .short-content .row10 .view-all {
   right: 20px;
   width: 120px;
   height: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
   border-radius: 20px;
   padding-left: 30px;
   padding-top: 2px;
@@ -1413,7 +1454,7 @@ main #slide-cart .slide-cart .slide-card1 .owl-prev {
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
 }
 
 main #slide-cart .slide-cart .slide-card1 .owl-next {
@@ -1424,7 +1465,7 @@ main #slide-cart .slide-cart .slide-card1 .owl-next {
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
 }
 
 main #slide-cart .slide-cart .slide-card1 .item {
@@ -1433,7 +1474,7 @@ main #slide-cart .slide-cart .slide-card1 .item {
   position: relative;
   -webkit-transition: all 2s;
   transition: all 2s;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
 }
 
 main #slide-cart .slide-cart .slide-card1 .item:hover .collapse-icon {
@@ -1493,7 +1534,7 @@ main #slide-cart .slide-cart .slide-card1 .item .heart-icon {
   width: 45px;
   height: 45px;
   border-radius: 40px;
-  border: 1px solid rgba(196, 196, 196, 0.25);
+  border: 1px solid #e4e5ee;
   background-color: white;
   opacity: 0;
 }
@@ -1512,7 +1553,7 @@ main #slide-cart .slide-cart .slide-card1 .item .collapse-icon {
   width: 45px;
   height: 45px;
   border-radius: 40px;
-  border: 1px solid rgba(196, 196, 196, 0.25);
+  border: 1px solid #e4e5ee;
   background-color: white;
   opacity: 0;
 }
@@ -1541,7 +1582,7 @@ main #slide-cart .slide-cart .slide-card1 .item #add-cart {
 main #slide-cart .slide-cart .slide-card1 .item .name {
   height: 35px;
   width: 220px;
-  color: var(--color-text);
+  color: #202435;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -1655,13 +1696,13 @@ main #product-details .product-details .details .radius2 {
 
 main #product-details .product-details .details .col-4 {
   height: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
   width: 20.333333% !important;
 }
 
 main #product-details .product-details .details .col-2 {
   width: 19.666667%;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
   height: 300px;
 }
 
@@ -1672,7 +1713,7 @@ main #product-details .product-details .details .page {
   position: relative;
   -webkit-transition: all 2s;
   transition: all 2s;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
 }
 
 main #product-details .product-details .details .page:hover #add-cart {
@@ -1736,7 +1777,7 @@ main #product-details .product-details .details .page .heart-icon {
   width: 45px;
   height: 45px;
   border-radius: 40px;
-  border: 1px solid rgba(196, 196, 196, 0.25);
+  border: 1px solid #e4e5ee;
   background-color: white;
   opacity: 0;
 }
@@ -1755,7 +1796,7 @@ main #product-details .product-details .details .page .collapse-icon {
   width: 45px;
   height: 45px;
   border-radius: 40px;
-  border: 1px solid rgba(196, 196, 196, 0.25);
+  border: 1px solid #e4e5ee;
   background-color: white;
   opacity: 0;
 }
@@ -1785,7 +1826,7 @@ main #product-details .product-details .details .page #add-cart {
 main #product-details .product-details .details .page .name {
   height: 35px;
   width: 217px;
-  color: var(--color-text);
+  color: #202435;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -2039,7 +2080,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
 
 .delivery .row {
   height: 70px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #e4e5ee;
   padding-top: 25px;
 }
 
@@ -2054,7 +2095,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-right: 1px solid rgba(0, 0, 0, 0.25);
+  border-right: 1px solid #e4e5ee;
 }
 
 .delivery .row .col-3 .everyday .fresh {
@@ -2100,7 +2141,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   display: -ms-flexbox;
   display: flex;
   padding-top: 40px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #e4e5ee;
   height: 140px;
 }
 
@@ -2124,7 +2165,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   width: 45px;
   height: 45px;
   border-radius: 45px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
   padding: 14px;
   padding-left: 17px;
   color: grey;
@@ -2208,7 +2249,7 @@ main #cardss .cardss .card-imgg .imageb .bacola {
   width: 40px;
   height: 40px;
   border-radius: 40px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #e4e5ee;
   padding-top: 8px;
   padding-left: 13px;
 }
@@ -2236,6 +2277,11 @@ main #cardss .cardss .card-imgg .imageb .bacola {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 600px;
+  cursor: pointer;
+}
+
+.end-footer .content-end .privacy-visa .terms-cookies {
+  cursor: pointer;
 }
 
 .end-footer .content-end .privacy-visa .terms-cookies span {
